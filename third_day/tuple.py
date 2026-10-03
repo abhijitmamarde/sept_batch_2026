@@ -15,6 +15,7 @@ print(l[-1])
 print(t[-1])
 
 # Slices also works same... 
+print("========")
 print(l[0:3])
 print(t[0:3])
 

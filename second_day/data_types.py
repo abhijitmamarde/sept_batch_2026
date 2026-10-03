@@ -21,4 +21,8 @@ print(isinstance(d, dict))
 print(isinstance(t, tuple))
 print(isinstance(s, set))
 
+i = 1
+f = 2.2
+print(isinstance(i, int))
+print(isinstance(f, float))
 

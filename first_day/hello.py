@@ -29,7 +29,6 @@ avg = 'Car avg is: 17'
 print(avg)
 print(type(avg))
 
-
 avg = """Car avg is: 17"""
 print(avg)
 print(type(avg))

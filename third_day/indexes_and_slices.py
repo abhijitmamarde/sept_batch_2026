@@ -17,6 +17,7 @@ print(l3[-7])
 
 # slice - from, to, step
 # shortcut for copying the list
+print("============")
 l = l3[::]
 print(l)
 print(f"id of l3 is: {id(l3)}")

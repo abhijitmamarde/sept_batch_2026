@@ -1,6 +1,6 @@
 l1 = [1, 2, 3]
 l2 = ['aaaa', 'bbbb', 'cccc']
-l3 = ['aaaa', 1, 'bbbb', 3, 'cccc', None, True]
+l3 = ['aaaa', 1, 'bbbb', 3.5, 'cccc', None, True]
 
 print(l1)
 print(l2)
@@ -27,6 +27,9 @@ print(len(l3))
 print(l1[len(l1)-1])
 print(l2[len(l2)-1])
 print(l3[len(l3)-1])
+
+print("=========")
+print(l3[len(l2)-1]) # --> not give last element of l3 (True)
 
 # this wont work, as len gives abosulte number of values in list; index pos is 1 less than that
 # print(l3[len(l3)]) # IndexError: list index out of range
@@ -57,6 +60,7 @@ print(l3[:])
 l4 = l3[:]
 print(l4)
 
+print(":::::")
 # [from:until] can also have negative index positions
 print(l3[1:-2])
 print(l3[1:len(l3)-2])

@@ -1,7 +1,9 @@
+name = "manish"
+
 name1 = "abhijit's and my age=\"42\""
 name2 = 'abhijit\'s and my age="42"' # escape char --> \ 
-name3 = """abhijit"""
-name4 = '''abhijit'''
+name3 = """abhijit's age is "42" """
+name4 = '''abhijit's age is "42" '''
 
 print(name1)
 print(name2)
@@ -35,6 +37,9 @@ print(s1)
 l = list(s1)
 print(l)
 
+t = tuple(s1)
+print(t)
+
 s2 = "".join(l)
 print(s2)
 
@@ -53,9 +58,12 @@ print("capitalize: ", s2.capitalize())
 data = "aaa bbb ccc ddd eee"
 print("ddd" in data)
 print("ddD" in data)
+print("DDD" in data.upper())
+
 # returns index pos if found OR -1
 print(data.find("ddd"))
 print(data.find("ddD"))
+print(data.find("aaa"))
 
 # index; works as find, but raises ValueError
 print(data.index("ddd"))
@@ -71,8 +79,10 @@ s = "aaa bbb aaa ccc ccc ddd aaa eee ddd"
 print(s.replace("aaa", "**AAA**"))
 
 name = "    ABC    "
-print(name)
-print(name.strip())
+print(name, len(name))
+print(name.strip(), len(name.strip()))
+print(name.rstrip(), len(name.rstrip()))
+print(name.lstrip(), len(name.lstrip()))
 
 para = """
      

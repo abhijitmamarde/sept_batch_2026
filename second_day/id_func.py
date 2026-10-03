@@ -1,3 +1,6 @@
+# 1. dataypye I am creating variable of
+#    value: 1
+#    what is the mem address: 4897667293
 a = 1
 b = 2.0
 

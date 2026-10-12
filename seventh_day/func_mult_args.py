@@ -11,6 +11,7 @@ def new_mycalc(*args, **kwargs):
     print(f"Args are: {args}")
     print(f"Type of Args is: {type(args)}")
     print(f"KWArgs are: {kwargs}")
+    print(f"Type of KWArgs is: {type(kwargs)}")
 
     # Assignment:
     # 1. Return subtractions, multiplications as well
@@ -37,7 +38,7 @@ print(f"Sum is: {sum(args)}")
 # positional arg calling
 new_mycalc(1, 2)
 
-# keywaord arg calling
+# # keywaord arg calling
 print("==================== 1")
 new_mycalc(n1=1, n2=2)
 print("==================== 2")

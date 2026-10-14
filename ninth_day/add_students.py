@@ -1,0 +1,5 @@
+name = input("Enter the new student name:")
+fp = open("students_names.txt", "a")
+fp.write(name + "\n")
+fp.close()
+print(f"Student {name} added to the file!")
